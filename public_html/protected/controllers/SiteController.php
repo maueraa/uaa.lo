@@ -42,21 +42,21 @@ class SiteController extends Controller
             $this->render('index');
 	}
 
-    public function actionNexia()
+    public function actionLacetti()
     {
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
         $lng = isset($_POST["languagePicker"]) ? $_POST["languagePicker"] : (isset($_COOKIE["language"])?$_COOKIE["language"]:"uz");
         if ($lng==="ru")
         {
-            $this->render("nexiaru");
+            $this->render("lacettiru");
         }
         elseif ($lng==="en")
         {
-            $this->render("nexiaen");
+            $this->render("lacettien");
         }
         else
-            $this->render('nexia');
+            $this->render('lacettiuz');
     }
 
     public function actionCobalt()
@@ -74,40 +74,6 @@ class SiteController extends Controller
         }
         else
             $this->render('cobalt');
-    }
-
-    public function actionMatiz()
-    {
-        // renders the view file 'protected/views/site/index.php'
-        // using the default layout 'protected/views/layouts/main.php'
-        $lng = isset($_POST["languagePicker"]) ? $_POST["languagePicker"] : (isset($_COOKIE["language"])?$_COOKIE["language"]:"uz");
-        if ($lng==="ru")
-        {
-            $this->render("matizru");
-        }
-        elseif ($lng==="en")
-        {
-            $this->render("matizen");
-        }
-        else
-            $this->render('matiz');
-    }
-
-    public function actionDamas()
-    {
-        // renders the view file 'protected/views/site/index.php'
-        // using the default layout 'protected/views/layouts/main.php'
-        $lng = isset($_POST["languagePicker"]) ? $_POST["languagePicker"] : (isset($_COOKIE["language"])?$_COOKIE["language"]:"uz");
-        if ($lng==="ru")
-        {
-            $this->render("damasru");
-        }
-        elseif ($lng==="en")
-        {
-            $this->render("damasen");
-        }
-        else
-            $this->render('damas');
     }
 
     public function actionSpark()
