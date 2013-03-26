@@ -15,6 +15,10 @@ return array (
     'Манзил' => 'Address',
     'ОБ-ХАВО' => 'WEATHER',
     'Валюталар курси' => 'Exchange Course',
+	'Пайвандлаш линияси' => 'Welding line',
+	'Бўёқлаш линияси' => 'ED-Coating line',
+	'Диск йиғув линияси' => 'Rim & Assembly line',
+	'Пресслаш линияси' => 'Press line',
 
 );
 ?>
