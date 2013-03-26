@@ -8,14 +8,14 @@ include_once("car_menus.php");
     <div class="custom">
         <div class="box2 block01">
             <div class="titlebox">
-                <h2><?=Yii::t("strings","Кобалт")?></h2>
+                <h2><?=Yii::t("strings","Ласетти")?></h2>
             </div>
             <div class="text-box" align="center">
-                O'z Auto Austem қўшма корхонаси Кобалт автомобиллари учун турли хил кўринишлардаги дискларни ишлаб чиқаради</p>
+                O'z Auto Austem қўшма корхонаси Ласетти автомобиллари учун турли хил кўринишлардаги дискларни ишлаб чиқаради</p>
             </div>
         </div>
         <div class="block03">
-            <img src="images/header.jpg" class="fasad" width="442px" height="170">-->
+            <img src="images/lacetti_zag.jpg" class="fasad" width="442px" height="170">-->
         </div>
     </div>
 
@@ -25,10 +25,14 @@ include_once("car_menus.php");
                 <div class="title">
                     <h2><a href="#" rel="bookmark">O'z Auto Austem</a></h2><br>
                 </div>
+
+
                 <div class="text-box">
 					
 					<div class="link-edit"></div>
                 </div>
+
+
             </div>
             <div class="post-1 post hentry category-etiam-cursus-leo category-quisque-nulla-vestibu category-malesuad-neque-vivamus category-orci-luctus-et-ultrices category-primis-in-faucibus tag-ipsa tag-sed" id="post-1">
             </div>
